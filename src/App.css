@@ -1,0 +1,80 @@
+.heading {
+  text-align: center;
+  color: crimson;
+  margin-top: 5%;
+}
+.Chartdiv {
+  background-color: lightgray;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  height: 100%;
+}
+/* iphoneX */
+@media all and (min-width: 375px) and (max-width: 812px) {
+  .Chartdiv {
+    background-color: lightgray;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    height: 100%;
+  }
+
+  .heading {
+    text-align: center;
+    color: crimson;
+    margin-top: 5%;
+  }
+}
+/* iphone5 */
+
+@media all and (min-width: 320px) and (max-width: 568px) {
+  .Chartdiv {
+    background-color: lightgray;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    height: 100%;
+  }
+  .heading {
+    text-align: center;
+    color: crimson;
+    margin-top: 5%;
+  }
+}
+/* ipad */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .Chartdiv {
+    background-color: lightgray;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    height: 100%;
+  }
+  .heading {
+    text-align: center;
+    color: crimson;
+    margin-top: 5%;
+  }
+}
+/* ipad Pro */
+
+@media all and (min-width: 1024px) and (max-width: 1366px) {
+  .Chartdiv {
+    background-color: lightgray;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    height: 100%;
+  }
+  .heading {
+    text-align: center;
+    color: crimson;
+    margin-top: 5%;
+  }
+}
