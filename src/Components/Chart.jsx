@@ -24,7 +24,7 @@ const Page = () => {
     grid: { top: 10, right: 15, bottom: 30, left: 25 },
     xAxis: {
       type: "category",
-      data: alcoholArr,
+      // data: alcoholArr,
       data: flavanoidsArr,
     },
 
@@ -60,7 +60,6 @@ const Page = () => {
       trigger: "axis",
     },
   };
-
   return <ReactECharts option={options} className="Chartdiv" />;
 };
 
