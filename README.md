@@ -6,10 +6,12 @@
 
 
 <h2>Installation</h2>
-<p>To install the dependencies, run the following command: <span> npm install</span>
+<p>To install the dependencies, run the following command: <br/>
+<h2>npm install</h2>
 <br/>
 
 <h2>Usage</h2>
-<p>To install the dependencies, run the following command: <span>yarn start</span>
+<p>To install the dependencies, run the following command: <br/>
+<h2>yarn start</h2>
 <br/>
 <p>The browser should open with the Line Chart and Bar Chart rendered.</p>
