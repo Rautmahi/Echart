@@ -1,4 +1,4 @@
-import Page from "./Components/Chart";
+
 import "./App.css";
 import LineChart from "./Components/LineChart";
 import BarChart from "./Components/BarChart";

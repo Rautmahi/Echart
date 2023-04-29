@@ -5,9 +5,6 @@ import "../App.css";
 
 let alcoholArr = [];
 let magnesiumArr = [];
-let alc1=[]
-let alc2=[]
-let alc3=[]
 
 
 function alldata() {
@@ -18,14 +15,7 @@ function alldata() {
   }
 }
 
-
-for(let i=0;i<alcoholArr.length;i++)
-{
-
-console.log(alcoholArr[i])
-}
-console.log(alcoholArr)
-// console.log(count,count2,count3)
+// console.log(alcoholArr)
 
 alldata();
 

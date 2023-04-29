@@ -12,7 +12,7 @@ function alldata() {
     ashArr.push(getdata[i].Ash);
   }
 }
-// console.log(Alc)
+
 alldata();
 
 const LineChart = () => {
