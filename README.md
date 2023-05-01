@@ -24,5 +24,5 @@
 <h2>yarn start</h2>
 <br/>
 <p>The browser should open with the Line Chart and Bar Chart rendered.</p>
-![bar](https://user-images.githubusercontent.com/100849820/235470901-d06f8ba2-84fe-42f5-acea-4e03b7f6ee68.png)
+
 
