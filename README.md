@@ -29,5 +29,6 @@
 
 <br/>
 
+<h2> Project Deployment Link ="https://644fd58bac9d362e1444ad7e--beamish-sprinkles-4bc203.netlify.app/" </h2>
 <h2>Tech Stack:</h2>
 <h3> ReactJs,Echart,CSS,Netlify</h3>
