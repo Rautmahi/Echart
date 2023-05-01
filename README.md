@@ -16,6 +16,18 @@
 <br/>
 <p>The browser should open with the Line Chart and Bar Chart rendered.</p>
 <br/>
+<h2>Line Chart </h2>
+
+![LineChart](https://user-images.githubusercontent.com/100849820/235472820-e66dbce1-b967-4b7c-b089-5dcd6305a70d.jpg)
+
+<br/>
+
+<h2>Bar Chart </h2>
+
+![BarChart](https://user-images.githubusercontent.com/100849820/235472575-1dd4a004-eda0-48f3-a1f6-6e80ada03872.jpg)
+
+
+<br/>
 
 <h2>Tech Stack:</h2>
 <h3> ReactJs,Echart,CSS,Netlify</h3>
