@@ -3,50 +3,45 @@ import ReactECharts from "echarts-for-react";
 import getdata from "../winedata.json";
 import "../App.css";
 
-let alcoholArr = [];
-let magnesiumArr = [];
+const categories = [...new Set(getdata.map((item) => item["Alcohol"]))];
+// console.log(categories)
+const magnesiumarr = categories.map((ele) => {
+  const filteredData = getdata.filter((item) => item["Alcohol"] === ele);
+  const minmagnesium = Math.min(
+    ...filteredData.map((item) => item["Magnesium"])
+  );
+  // console.log(minmagnesium)
 
-
-function alldata() {
-  for (let i = 0; i < getdata.length; i++) 
-  {
-    alcoholArr.push(getdata[i].Alcohol);
-    magnesiumArr.push(getdata[i].Magnesium);
-  }
-}
-
-// console.log(alcoholArr)
-
-alldata();
+  return minmagnesium;
+});
 
 const BarChart = () => {
   const options = {
     grid: { top: 10, right: 25, bottom: 50, left: 55 },
     xAxis: {
       type: "category",
-      data: alcoholArr,
+      data: categories,
       axisLabel: {
         formatter: "{value}",
       },
       name: "Alcohol",
       nameLocation: "middle",
       nameGap: 30,
-      
     },
     yAxis: {
-        type: "value",
-        axisLabel: {
-          formatter: "{value}",
-        },
-        name: "Magnesium",
-        nameLocation: "middle",
-        nameGap: 30,
+      type: "value",
+      axisLabel: {
+        formatter: "{value}",
       },
+      name: "Magnesium",
+      nameLocation: "middle",
+      nameGap: 30,
+    },
     series: [
       {
         name: "Magnesium",
         type: "bar",
-        data: magnesiumArr,
+        data: magnesiumarr,
         itemStyle: {
           color: "#91cc65",
           shadowColor: "#91cc75",
@@ -65,4 +60,4 @@ const BarChart = () => {
   return <ReactECharts option={options} className="Chartdiv" />;
 };
 
-export default BarChart
+export default BarChart;

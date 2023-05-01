@@ -7,9 +7,11 @@ function App() {
     <div>
       <h1 className="heading">*Wine Data Chart* </h1>
       <h1 className="heading">Line Chart </h1>
-      <LineChart />
+      <LineChart/>
       <h1 className="heading">Bar Chart </h1>
       <BarChart />
+      <br/>
+      <br/>
     </div>
   );
 }
