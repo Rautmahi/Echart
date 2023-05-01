@@ -18,11 +18,19 @@
 <br/>
 <h2>Line Chart </h2>
 
+<<<<<<< HEAD
+=======
+![LineChart](https://user-images.githubusercontent.com/100849820/235472820-e66dbce1-b967-4b7c-b089-5dcd6305a70d.jpg)
+>>>>>>> a1119c0b9553c75d1a20e005a588d4f64534886e
 
 <br/>
 
 <h2>Bar Chart </h2>
 
+<<<<<<< HEAD
+=======
+![BarChart](https://user-images.githubusercontent.com/100849820/235472575-1dd4a004-eda0-48f3-a1f6-6e80ada03872.jpg)
+>>>>>>> a1119c0b9553c75d1a20e005a588d4f64534886e
 
 
 <br/>
