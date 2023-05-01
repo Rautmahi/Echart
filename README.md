@@ -12,8 +12,7 @@
 <p>To install the dependencies, run the following command: <span>yarn start</span>
 <br/>
 <p>The browser should open with the Line Chart and Bar Chart rendered.</p>
-=======
-![echart](https://user-images.githubusercontent.com/100849820/235148463-57add15a-b2c4-472c-81c4-034aad0aa6f5.png)
+![line](https://user-images.githubusercontent.com/100849820/235470524-dc1e3b56-6c29-4bd8-8d8a-9237fa2eeffe.png)
 
 
 <h2>Installation</h2>
@@ -26,4 +25,4 @@
 <h2>yarn start</h2>
 <br/>
 <p>The browser should open with the Line Chart and Bar Chart rendered.</p>
->>>>>>> 646a77414e48858de939b4b35419717f0d995a2f
+
